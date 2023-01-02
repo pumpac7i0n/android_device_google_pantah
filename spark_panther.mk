@@ -6,7 +6,6 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/google/gs201/spark_common.mk)
 $(call inherit-product, device/google/pantah/aosp_panther.mk)
 $(call inherit-product, device/google/pantah/device-spark.mk)
 
