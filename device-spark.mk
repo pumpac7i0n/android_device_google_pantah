@@ -1,3 +1,5 @@
+PIXEL_DEVICE := true
+
 # artifacts
 $(call inherit-product, device/google/pantah/artifacts.mk)
 
@@ -25,14 +27,12 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.spark.maintainer=Albinoman887 \
     ro.spark.maintainer.username=Albinoman887
     
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.columbus.use_ap_sensor=false
-
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.columbus.use_ap_sensor=false
 
 # UDFPS
 TARGET_HAS_UDFPS := true
 EXTRA_UDFPS_ANIMATIONS := true
 
-PIXEL_DEVICE := true
