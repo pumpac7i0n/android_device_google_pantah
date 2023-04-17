@@ -76,4 +76,18 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/lib64/android.hardware.nfc-V1-ndk.so \
     system/app/GmsCompat/GmsCompat.apk \
     system/app/GmsCompatConfig/GmsCompatConfig.apk \
-    system/etc/sysconfig/whitelist_app.grapheneos.gmscompat.xml
+    system/etc/sysconfig/whitelist_app.grapheneos.gmscompat.xml \
+    system/addon.d/blacklist \
+    system/bin/backuptool.functions \
+    system/bin/backuptool.sh \
+    system/bin/clean_cache.sh \
+    system/bin/vncflinger \
+    system/bin/vncpasswd \
+    system/etc/apns-conf.xml \
+    system/etc/init/init.omni.rc \
+    system/etc/permissions/privapp-permissions-omni.xml \
+    system/etc/vimrc \
+    system/lib64/libncurses.so \
+    system/media/bootanimation.zip \
+    system/xbin/vim
+

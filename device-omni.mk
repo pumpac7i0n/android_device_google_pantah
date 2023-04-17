@@ -24,8 +24,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # properties - system
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.spark.maintainer=Albinoman887 \
-    ro.spark.maintainer.username=Albinoman887
+    ro.spark.maintainer=PumpAc7i0n \
+    ro.spark.maintainer.username=PumpAc7i0n
     
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
