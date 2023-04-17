@@ -1,7 +1,7 @@
 PIXEL_DEVICE := true
 
 # artifacts
-#$(call inherit-product, device/google/pantah/artifacts.mk)
+$(call inherit-product, device/google/pantah/artifacts.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/pantah/overlay-spark
